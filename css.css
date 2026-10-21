@@ -3108,8 +3108,8 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
     background: #466e9680!important;
 }
 
-/* .libraryDocument a.MuiButton-colorPrimary:hover,
+.libraryDocument a.MuiButton-colorPrimary:hover,
 .libraryDocument a.MuiButton-colorPrimary:focus-visible {
-    background: #1c1b31!important;
+    background: #605ca9d2!important;
     color: #fff!important;
-} */
+}
