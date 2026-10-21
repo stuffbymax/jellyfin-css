@@ -1260,9 +1260,13 @@ h1, h2 {
     width: -webkit-fill-available;
 }
 .itemProgressBarForeground {
-    background-color: var(--cardResumeProgressColor);
-    border-radius: 0 var(--largeRadius) var(--largeRadius) 0;
-    opacity: .75;
+    background: linear-gradient(
+        90deg,
+        #2196f3 0%,
+        #3867ff 45%,
+        #7547d9 75%,
+        #a855f7 100%
+    ) !important;
 }
 .backgroundProgress, .backgroundProgress>div {
     background-color: var(--darkerGradientPoint);
@@ -1322,7 +1326,13 @@ progress+span {
     margin-top: calc(var(--h)/-2);
 }
 .mdl-slider-background-lower {
-    background-color: var(--osdSeekBarPlayedColor);
+    background: linear-gradient(
+        90deg,
+        #2196f3 0%,
+        #3867ff 45%,
+        #7547d9 75%,
+        #a855f7 100%
+    ) !important;
 }
 .mdl-slider-background-upper {
     background-color: var(--osdSeekBarBufferedColorAlpha);
@@ -3089,3 +3099,4 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
     background: var(--dimTextColor);
     color: var(--zeroContrastColor);
 }
+
