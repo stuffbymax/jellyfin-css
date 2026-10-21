@@ -3100,3 +3100,16 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
     color: var(--zeroContrastColor);
 }
 
+/* LibraryDocument Material UI navigation buttons. */
+.libraryDocument a.MuiButton-colorPrimary {
+    background: transparent!important;
+    border: 0!important;
+    box-shadow: none!important;
+    background: #466e9680!important;
+}
+
+/* .libraryDocument a.MuiButton-colorPrimary:hover,
+.libraryDocument a.MuiButton-colorPrimary:focus-visible {
+    background: #1c1b31!important;
+    color: #fff!important;
+} */
